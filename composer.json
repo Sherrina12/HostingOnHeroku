@@ -32,6 +32,7 @@
         }
     },
     "scripts": {
+
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
@@ -45,6 +46,8 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
+
+
     },
     "extra": {
         "laravel": {
@@ -58,4 +61,6 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true
+
+
 }
